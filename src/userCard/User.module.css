@@ -1,0 +1,55 @@
+img {
+  max-width: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.card {
+  max-width: 350px;
+  overflow: hidden;
+  box-shadow: 0 .1rem 1rem rgba(0, 0, 0, 0.1);
+  border-radius: 1em;
+  background: #ECE9E6;
+  background: linear-gradient(to right, #FFFFFF, #ECE9E6);
+  padding: 1em;
+}
+
+.card_name {
+  text-align: center;
+}
+
+.card_position {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+.image {
+   border-radius: 4px;
+   background-size:    contain;                     
+   background-repeat:   no-repeat;
+   background-position: center center; 
+   min-height: 300px;
+   margin : 0px 50px; 
+}
+
+@media (min-width : 320px) and (max-width: 480px) {
+  .image {margin : 0px 10px}
+}
+
+@media (min-width : 481px) and (max-width: 768px) {
+  .image {margin : 0px 20px}
+}
+
+@media (min-width : 769px) and (max-width: 1024px) {
+  .image {margin : 0px 30px}
+}
+
+
+@media (min-width : 1025px) and (max-width: 1200px) {
+  .image {margin : 0px 40px}
+}
+
+
